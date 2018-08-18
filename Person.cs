@@ -9,7 +9,6 @@ namespace PetManager {
     public class Person {
 
         // das ist ein kommentar
-
         public Person() {
             this.Pets = new BindingList<Pet>();
         }
