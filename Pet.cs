@@ -9,4 +9,10 @@ namespace PetManager {
         public string Name { get; set; }
         public string Breed { get; set; }
     }
+
+    // add hashcode
+    public override int GetHashCode()
+    {
+        
+    }
 }
